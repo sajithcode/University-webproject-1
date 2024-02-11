@@ -1,0 +1,28 @@
+.title-section{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 50px auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.grid-section{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 30px;
+}
+
+
+
+#grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2vw;
+    }
+  #grid > div {
+    font-size: 5vw;
+    padding: .5em;
+    
+    text-align: center;
+  }

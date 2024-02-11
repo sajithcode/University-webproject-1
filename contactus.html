@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contactus.css">
+
+
+
+    <!--icon remix cdn added-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css" integrity="sha512-GL7EM8Lf8kU23I3kTio2kRWt8YRDVIQcSZjRVtVRfk05kB/QvkyafuTC94Ev0X6qk7Z0r5s06c1lsP1p/ezDYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--navbar section start-->
+    <div class="navbar-container">
+        <nav class="navbar">
+            <div>
+                <div>
+                    <!-- <img src="" alt=""> -->
+                    <a href="index.html">
+                    <p>srs-shop <br>
+                        <span style="font-size: 12px;">pharma shop</span>
+                    </p></a>
+                </div>
+            </div>
+            <div class="responsive-lg">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                    <li><a href="#" onclick="viewcart()"><i class="ri-shopping-cart-2-line"></i></a></li>
+                    
+                    
+                    
+                </ul>
+            </div>
+            <div class="responsive-sm">
+                <ul>
+                    <li><a href="index.html" class="sm-icon"><i class="ri-home-7-fill"></i></a></li>
+                    <li><a href="shop.html" class="sm-icon"><i class="ri-store-3-fill"></i></a></li>
+                    <li><a href="contactus.html" class="sm-icon"><i class="ri-contacts-fill"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--navbar section end-->
+
+    <!--map section start-->
+    <div class="map-section">
+        <div class="contact-title">
+            <h2>Contact US</h2>
+        </div>
+        <div class="map-embedded">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63398.93296297958!2d80.32894000532332!3d6.716859173723315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3beb435df712f%3A0xc14a5df053ff0561!2sRatnapura%2C%20Sri%20Lanka!5e0!3m2!1sen!2ssg!4v1707575837992!5m2!1sen!2ssg" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!--map section start-->
+
+    <div class="contact-form-section">
+        <div class="contact-form-title">
+            <h3 class="form-title">Get in touch with us</h3>
+            <p class="form-description">FOR MORE INFORMATION ABOUT OUR PRODUCT & SERVICES. PLEASE
+                FEEL FREE TO DROP US AN EMAIL. OUR STAFF ALWAYS BE THERE TO HELP
+                YOU OUT. DO NOT HESITATE!</p>
+        </div>
+
+        <div class="form-middle-row">
+            <div class="address-list">
+                <div class="address-col">
+                    <div class="icon">
+                        <i class="ri-map-pin-line"></i>
+                    </div>
+                    
+                    <p class="title">Address</p>
+                    <p>No: 33/4, New Town, Ratnapura</p>
+                </div>
+                <div class="address-col">
+                    
+                        <div class="icon">
+                            <i class="ri-contacts-line"></i>
+                        </div>
+                        <div>
+                        <p class="title">Phone</p>
+                        <p>Mobile: +94 705-316-256</p>
+                        <p>Mobile: +94 705-345-254</p>
+                        </div>
+                        
+                    
+                </div>
+                <div class="address-col">
+                        <div class="icon">
+                            <i class="ri-history-line"></i>
+                        </div>
+                        
+                        <p class="title">Working Time</p>
+                        <p>Monday - Friday: 9:00 - 22:00</p>
+                        <p>Saturday & Sunday: 9:00 - 21:00</p>
+                    
+                </div>
+            </div>
+            <div class="form">
+                <form action="mailto:sajithsampath721@gmail.com" method="post" enctype="text/plain">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="srlanka">Sri Lanka</option>
+                      <option value="india">India</option>
+                      <option value="usa">USA</option>
+                    </select>
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                  </form>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Scroll To Top Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="ri-arrow-up-line"></i></button>
+
+    <!--footer section start-->
+    <footer>
+        <div class="all-footer">
+            <div class="company-footer">
+                <h1>SRS- Store</h1>
+                <p>For your Healthy life</p>
+            </div>
+            <hr>
+            <div class="footer">
+                <p>Copyright &copy; 2024 srs-shop | Made by Sajith R. Sampath</p>
+            </div>
+        </div>
+        
+    </footer>
+    <!--footer section end-->
+
+    <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,462 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*-----------------------------------
+    Button style-------------------*/
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FC634A;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.btn-hero{
+    margin-top: 20px;
+}
+
+img {
+    max-width:100%;
+}
+
+/* Scroll To Top Button Style */
+#myBtn {
+    font-family: 'Poppins', sans-serif;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: #FC634A;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 100%;
+}
+  
+#myBtn:hover {
+    background-color: #000;
+}
+
+
+
+/*-----------------------------------
+    navbar section-------------------*/
+
+
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    
+}
+
+nav p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    list-style: none;
+    padding-right: 35px;
+}
+
+ul  a{
+    
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #000;
+    transition: .4s ease-in-out;
+}
+
+ul a:hover{
+    color: #FC634A;
+}
+
+.ri-shopping-cart-2-line{
+    font-size: 20px;
+}
+
+
+/* .brand-name{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+
+/*-----------------------------------
+    Hero section-------------------*/
+
+.hero-section{
+    width: 100%;
+    height: 70vh;
+    background-color: #CAE9E8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.main-text{
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.hero-title p{
+    margin-bottom: 20px;
+}
+
+
+.hero-title h1{
+    line-height: 80px;
+}
+
+.hero-image{
+    display: block;
+}
+
+/*-----------------------------------
+    Icon section-------------------*/
+
+.icon-section{
+    margin-top: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col-icon img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.icon-text h3{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+
+.icon-text p{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 2;
+}
+
+/*-----------------------------------
+    middle section 1 section-------------------*/
+
+
+.middle-section-1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-show-1{
+    font-family: "Fira Sans", sans-serif;
+    flex: 1;
+    /* width: 500px;
+    height: 500px;
+    background-color: #FC634A; */
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    background-image: url("../images/Protein\ Supplement\ Banner.png");
+    background-size: cover;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 40px 10px 30px 30px;
+
+}
+
+.col-show-2{
+    font-family: "Fira Sans", sans-serif;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    background: url("../images/Immunity\ Boosters\ Banner.png");
+    background-size: cover;
+    height: 200px;
+    border-radius: 20px;
+    padding: 40px 10px 30px 30px;
+}
+
+.middle-title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 2;
+}
+
+.middle-second{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.middle-btn{
+    padding: 2% 3%;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.middle-btn:hover{
+    background-color: black;
+    color: #FFFFFF;
+}
+
+/*-----------------------------------
+    New Arrival section -------------------*/
+
+.middle-section-2{
+    margin: 80px 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+ .new-title{
+    font-family: "Fira Sans", sans-serif;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+ }   
+
+.new-row{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.col{
+    margin: 0 2%;
+    cursor: pointer;
+}
+
+
+
+.new-description{
+    padding-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    line-height: 2;
+}
+
+.line{
+    text-decoration: line-through;
+    margin-right: 5px;
+    opacity: 0.5;
+}
+
+/*-----------------------------------
+    Middle Section 3 -------------------*/
+
+.middle-section-3{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    margin-bottom: 100px;
+}
+
+.new-description-3{
+    margin-top: 25px;
+    
+
+}
+
+.dis-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.disc-p{
+    width: 70%;
+    margin: 5px auto;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.check-out{
+    margin-top: 10px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*-----------------------------------
+    Footer Section 3 -------------------*/
+
+footer{
+    padding-top: 50px;
+    background-color: #EEEEEC;
+    font-family: 'Poppins', sans-serif;
+}
+
+.all-footer{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    
+}
+.company-footer{
+    padding-bottom: 20px;
+}
+
+.company-footer h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.company-footer p{
+    font-size: 1rem;
+}
+
+.footer{
+    padding: 2% 3%;
+    
+}
+.responsive-sm{
+    display: none;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+
+    
+
+
+    .hero-section{
+        text-align: center;
+    }
+
+    .hero-image{
+        display: none;
+    }
+    
+    .icon-section{
+        flex-direction: column;
+    }
+    .col-icon{
+        margin: 20px;
+    }
+
+    .middle-section-1{
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .col-show-1{
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .new-row{
+        flex-direction: column;
+    }
+
+    .col{
+        margin: 2% auto;
+        cursor: pointer;
+    }
+
+    .responsive-lg{
+        display: none;
+    }
+
+    
+
+    .responsive-sm{
+        position: fixed;
+        bottom: 50px;
+        left: 20vw;
+        
+        border-radius: 35px;
+        padding: 20px 30px;
+        display: block;
+        width: 30%;
+        background-color: #FC634A;
+    }
+
+    .sm-icon{
+        font-size: larger;
+    
+    }
+    
+    .sm-icon:hover{
+        color: #ffffff;
+    }
+}
+
