@@ -119,11 +119,20 @@ ul a:hover{
 }
 
 
-/* .brand-name{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-} */
+.brand-name a{
+   
+    color: #000;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.brand-name span{
+    font-size: 0.8rem;
+}
 
 
 
