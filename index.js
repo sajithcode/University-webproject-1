@@ -21,12 +21,12 @@ function topFunction() {
 }
 
 //add to function
-function addtocart(){
-  alert("The item added to cart  successfully!");
+function payment(){
+  alert("The payment placed successfully!");
 }
 
 function viewcart(){
-  alert("Sorry, No items there.");
+  alert("Sorry, No items there. First Add to cart items.");
 }
 
 
