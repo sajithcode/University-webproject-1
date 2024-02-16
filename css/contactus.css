@@ -1,0 +1,121 @@
+.map-section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contact-title{
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.5rem;
+    margin: 50px;
+}
+
+.contact-form-section{
+    font-family: "Fira Sans", sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    margin-top: 50px;
+    
+}
+
+.contact-form-title{
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.form-title{
+    font-size: 2.0rem;
+    margin-bottom: 20px;
+}
+
+/*---------------------------
+    Form Style------------*/
+
+    form{
+        font-family: "Fira Sans", sans-serif;
+    }
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #FC634A;
+        color: white;
+        padding: 10px 30px;
+        border-radius: 25px;
+        border: none;
+        
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #000;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+
+
+
+.address-list{
+    width: 50%;
+}
+
+.form-middle-row{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.address-col{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title{
+    font-size: 1.2rem;
+
+}
+
+.icon{
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .contact-form-section{
+        
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .contact-form-title{
+        
+        width: 80%;
+        
+    }
+
+    .address-list{
+        width: 100%;
+    }
+
+    .form-middle-row{
+        flex-direction: column;
+        margin: 0 4%;
+        
+    }
+}
