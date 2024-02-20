@@ -65,7 +65,7 @@
         <div class="row">
             <div class="col-75">
                 <div class="container">
-                <form action="/payment.html">
+                <form name="paymentForm" action="" method="post" onsubmit="payment();return false">
                 
                     <div class="row">
                     <div class="col-50">
@@ -121,7 +121,7 @@
                     <label>
                     <input type="checkbox" checked="checked" name="sameadr" required> Shipping address same as billing
                     </label>
-                    <input type="submit" value="Continue to checkout" class="btn" onclick="payment()">
+                    <input type="submit" value="Continue to checkout" class="btn" >
                 </form>
                 </div>
             </div>
